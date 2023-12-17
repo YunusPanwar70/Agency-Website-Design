@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 40%;
+}
+
+
+/* Left NavBar */
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*  Image */
+
+.emptyImg {
+    padding: 20px;
+    margin: 90px 0 0 300px;
+}
+
+.emptyImg img {
+    width: 10%;
+}
+
+.emptyImg h4 {
+    margin-left: -100px;
+}
+
+
+/* Text */
+
+.text {
+    padding: 15px;
+    margin: 5px 0 0 200px;
+}
+
+.text h1 {
+    font-size: 4.2rem;
+    height: 10px;
+}
+
+.text img {
+    width: 15%;
+    margin: 0 0 -120px 490px;
+}
+
+
+/* Buttons */
+
+.getStart {
+    display: flex;
+    margin: 220px 0 0 230px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.getStart button {
+    padding: 15px 25px;
+    background: rgb(63, 63, 245);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.getStart img {
+    width: 10%;
+}
+
+.getStart p {
+    margin-top: 15px;
+}
+
+.paragraph p {
+    margin: 20px 0 0 250px;
+    font-size: 1.2rem;
+}
+
+.paragraph h4 {
+    color: gray;
+    margin: 20px 0 0 250px;
+}
+
+
+/* Right side work start */
+
+.rightside {
+    width: 60%;
+    height: 101vh;
+    background-image: url(../img/lady-img\ .png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -720px 0 0 740px;
+}
+
+.rightnav a {
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 150px;
+}
+
+.btn-Start {
+    float: right;
+    margin: 800px 50px 0 0;
+}
+
+.btn-Start button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    .emptyImg {
+        margin: 50px 10 0 0;
+    }
+    .text {
+        margin: 5px 5 0 0;
+        text-align: center;
+    }
+    .getStart {
+        margin: 50px 23 0 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .startbtn {
+        margin-top: 130px;
+    }
+    .getStart button {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .text img {
+        margin-bottom: -683px;
+    }
+    .paragraph p,
+    .paragraph h4 {
+        margin: 50px 0 0 10;
+    }
+    .rightside {
+        width: 100%;
+        margin: 0;
+    }
+    .rightnav a {
+        margin: 45px;
+    }
+}
